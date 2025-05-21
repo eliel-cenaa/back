@@ -61,6 +61,11 @@ app.use(
   })
 );
 
+io.enable('blowser client cache');
+io.enable('browser client minification');
+io.enable('blowser client etag');
+io.enable('browser client gzip');
+io.set('log level', 1);
 
 io.use('authorization', function (data, accept) {
   cookie(data, {}, function (err) {
