@@ -1,0 +1,152 @@
+Mon, 02 Jun 2025 23:24:00 GMT express-session deprecated undefined resave option; provide resave option at app.js:30:14
+Mon, 02 Jun 2025 23:24:00 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:30:14
+C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:32
+ io.set('log level', 1);
+    ^
+
+TypeError: io.set is not a function
+    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\clusters.js:18:5)
+
+Node.js v22.11.0
+Mon, 02 Jun 2025 23:24:01 GMT express-session deprecated undefined resave option; provide resave option at app.js:30:14
+Mon, 02 Jun 2025 23:24:01 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:30:14
+C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:32
+ io.set('log level', 1);
+    ^
+
+TypeError: io.set is not a function
+    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\clusters.js:18:5)
+
+Node.js v22.11.0
+Mon, 02 Jun 2025 23:24:01 GMT express-session deprecated undefined resave option; provide resave option at app.js:30:14
+Mon, 02 Jun 2025 23:24:01 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:30:14
+C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:32
+ io.set('log level', 1);
+    ^
+
+TypeError: io.set is not a function
+    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\clusters.js:18:5)
+
+Node.js v22.11.0
+Mon, 02 Jun 2025 23:24:01 GMT express-session deprecated undefined resave option; provide resave option at app.js:30:14
+Mon, 02 Jun 2025 23:24:01 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:30:14
+C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:32
+ io.set('log level', 1);
+    ^
+
+TypeError: io.set is not a function
+    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\clusters.js:18:5)
+
+Node.js v22.11.0
+Mon, 02 Jun 2025 23:24:02 GMT express-session deprecated undefined resave option; provide resave option at app.js:30:14
+Mon, 02 Jun 2025 23:24:02 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:30:14
+C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:32
+ io.set('log level', 1);
+    ^
+
+TypeError: io.set is not a function
+    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\clusters.js:18:5)
+
+Node.js v22.11.0
+Mon, 02 Jun 2025 23:24:02 GMT express-session deprecated undefined resave option; provide resave option at app.js:30:14
+Mon, 02 Jun 2025 23:24:02 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:30:14
+C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:32
+ io.set('log level', 1);
+    ^
+
+TypeError: io.set is not a function
+    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\clusters.js:18:5)
+
+Node.js v22.11.0
+Mon, 02 Jun 2025 23:24:02 GMT express-session deprecated undefined resave option; provide resave option at app.js:30:14
+Mon, 02 Jun 2025 23:24:02 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:30:14
+C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:32
+ io.set('log level', 1);
+    ^
+
+TypeError: io.set is not a function
+    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\clusters.js:18:5)
+
+Node.js v22.11.0
+Mon, 02 Jun 2025 23:24:02 GMT express-session deprecated undefined resave option; provide resave option at app.js:30:14
+Mon, 02 Jun 2025 23:24:02 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:30:14
+C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:32
+ io.set('log level', 1);
+    ^
+
+TypeError: io.set is not a function
+    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:32:5)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\clusters.js:18:5)
+
+Node.js v22.11.0
