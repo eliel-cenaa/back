@@ -17,7 +17,6 @@ cookieParser = require('cookie-parser'),
 expressSession = require('express-session'),
 methodOverride = require('method-override'),
 parserSecret = cookieParser(cfg.SECRET),
-session = require("express-session")
 store = new expressSession.MemoryStore(),
 mongoose = require('mongoose');
 
@@ -27,10 +26,10 @@ var cookie = cookieParser(cfg.SECRET)
                  prefix: cfg.KEY}
  //, store = new ExpressStore(storeOpts)
  , sessOpts = {secret: cfg.SECRET, key: cfg.KEY, store: store}
- , session = session(sessOpts);
+ , session = express.session(sessOpts);
 
- io.set('log level', 1);
- io.set('store', new socketStore);
+ //io.set('log level', 1);
+ //io.set('store',  socketStore);
 
 mongoose.connect('mongodb://localhost/ntalk');
 mongoose.connection.on('error', (err) => {
@@ -45,7 +44,7 @@ app.use(cookie);
 app.use(session);
 app.use(express.json());
 app.use(express.urlencoded());
-app.use(express.methodOverride());
+app.use(methodOverride());
 app.use(express.compress(cfg.GZIP_LVL));
 app.use(app.router);
 app.use(express.static(__dirname + '/public', cfg.MAX_AGE));
