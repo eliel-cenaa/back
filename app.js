@@ -26,7 +26,7 @@ var cookie = cookieParser(cfg.SECRET)
                  prefix: cfg.KEY}
  //, store = new ExpressStore(storeOpts)
  , sessOpts = {secret: cfg.SECRET, key: cfg.KEY, store: store}
- , session = express.session(sessOpts);
+ , session = expressSession(sessOpts);
 
  //io.set('log level', 1);
  //io.set('store',  socketStore);
@@ -37,7 +37,7 @@ mongoose.connection.on('error', (err) => {
 });
 mongoose.Promise = global.Promise;
 
-app.use(express.logger('dev'));
+//app.use(express.logger('dev'));
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 app.use(cookie);
@@ -45,8 +45,8 @@ app.use(session);
 app.use(express.json());
 app.use(express.urlencoded());
 app.use(methodOverride());
-app.use(express.compress(cfg.GZIP_LVL));
-app.use(app.router);
+//app.use(express.compress(cfg.GZIP_LVL));
+//app.use(app.router);
 app.use(express.static(__dirname + '/public', cfg.MAX_AGE));
 app.use(error.notFound);
 app.use(error.serverError);
@@ -54,29 +54,32 @@ app.use(error.serverError);
 app.use(parserSecret);
 app.use(
   expressSession({
-    secret: SECRET,
-    name: KEY,
+    secret: cfg.SECRET,
+    name: cfg.KEY,
     resave: true,
     saveUninitialized: true,
     store: store,
   })
 );
 
-io.enable('blowser client cache');
-io.enable('browser client minification');
-io.enable('blowser client etag');
-io.enable('browser client gzip');
-io.set('log level', 1);
-io.set('store', new socketStore);
-io.set('authorization', function (data, accept) {
+//io.enable('blowser client cache');
+//io.enable('browser client minification');
+//io.enable('blowser client etag');
+//io.enable('browser client gzip');
+//io.set('log level', 1);
+//io.set('store', new socketStore);
+
+
+io.use('authorization', function (data, accept) {
   cookie(data, {}, function (err) {
     var sessionID = data.signedCookies[cfg.KEY];
     store.get(sessionID, function (err, session) {
       if (err || !session) {
         accept(null, false);
       } else {
-        data.session = session;
-        accept(null, true);
+        io.use('authorization', function(data, accept)
+
+      )
       }
     });
   });
