@@ -2,7 +2,7 @@ module.exports = function(app) {
     var banco_dados = app.models.usuario;
     var HomeController = {
         index: function(req, res) {
-            res.render ('home/index');
+            res.render('home/index');
         },
         login: function(req, res) {
             var query = {email: req.body.usuario.email};

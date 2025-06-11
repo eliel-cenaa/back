@@ -1,160 +1,32 @@
-Mon, 09 Jun 2025 22:36:28 GMT express-session deprecated undefined resave option; provide resave option at app.js:29:14
-Mon, 09 Jun 2025 22:36:28 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:29:14
-Mon, 09 Jun 2025 22:36:28 GMT body-parser deprecated undefined extended: provide extended option at app.js:46:17
-C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:71
-io.set('authorization', function (data, accept) {
-   ^
-
-TypeError: io.set is not a function
-    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:71:4)
-    at Module._compile (node:internal/modules/cjs/loader:1546:14)
-    at Object..js (node:internal/modules/cjs/loader:1689:10)
-    at Module.load (node:internal/modules/cjs/loader:1318:32)
-    at Function._load (node:internal/modules/cjs/loader:1128:12)
-    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
-    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
-    at Module.require (node:internal/modules/cjs/loader:1340:12)
-    at require (node:internal/modules/helpers:141:16)
-    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\clusters.js:18:5)
-
-Node.js v22.11.0
-Mon, 09 Jun 2025 22:36:28 GMT express-session deprecated undefined resave option; provide resave option at app.js:29:14
-Mon, 09 Jun 2025 22:36:28 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:29:14
-Mon, 09 Jun 2025 22:36:28 GMT body-parser deprecated undefined extended: provide extended option at app.js:46:17
-C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:71
-io.set('authorization', function (data, accept) {
-   ^
-
-TypeError: io.set is not a function
-    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:71:4)
-    at Module._compile (node:internal/modules/cjs/loader:1546:14)
-    at Object..js (node:internal/modules/cjs/loader:1689:10)
-    at Module.load (node:internal/modules/cjs/loader:1318:32)
-    at Function._load (node:internal/modules/cjs/loader:1128:12)
-    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
-    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
-    at Module.require (node:internal/modules/cjs/loader:1340:12)
-    at require (node:internal/modules/helpers:141:16)
-    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\clusters.js:18:5)
-
-Node.js v22.11.0
-Mon, 09 Jun 2025 22:36:29 GMT express-session deprecated undefined resave option; provide resave option at app.js:29:14
-Mon, 09 Jun 2025 22:36:29 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:29:14
-Mon, 09 Jun 2025 22:36:29 GMT body-parser deprecated undefined extended: provide extended option at app.js:46:17
-C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:71
-io.set('authorization', function (data, accept) {
-   ^
-
-TypeError: io.set is not a function
-    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:71:4)
-    at Module._compile (node:internal/modules/cjs/loader:1546:14)
-    at Object..js (node:internal/modules/cjs/loader:1689:10)
-    at Module.load (node:internal/modules/cjs/loader:1318:32)
-    at Function._load (node:internal/modules/cjs/loader:1128:12)
-    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
-    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
-    at Module.require (node:internal/modules/cjs/loader:1340:12)
-    at require (node:internal/modules/helpers:141:16)
-    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\clusters.js:18:5)
-
-Node.js v22.11.0
-Mon, 09 Jun 2025 22:36:29 GMT express-session deprecated undefined resave option; provide resave option at app.js:29:14
-Mon, 09 Jun 2025 22:36:29 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:29:14
-Mon, 09 Jun 2025 22:36:29 GMT body-parser deprecated undefined extended: provide extended option at app.js:46:17
-C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:71
-io.set('authorization', function (data, accept) {
-   ^
-
-TypeError: io.set is not a function
-    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:71:4)
-    at Module._compile (node:internal/modules/cjs/loader:1546:14)
-    at Object..js (node:internal/modules/cjs/loader:1689:10)
-    at Module.load (node:internal/modules/cjs/loader:1318:32)
-    at Function._load (node:internal/modules/cjs/loader:1128:12)
-    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
-    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
-    at Module.require (node:internal/modules/cjs/loader:1340:12)
-    at require (node:internal/modules/helpers:141:16)
-    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\clusters.js:18:5)
-
-Node.js v22.11.0
-Mon, 09 Jun 2025 22:36:30 GMT express-session deprecated undefined resave option; provide resave option at app.js:29:14
-Mon, 09 Jun 2025 22:36:30 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:29:14
-Mon, 09 Jun 2025 22:36:30 GMT body-parser deprecated undefined extended: provide extended option at app.js:46:17
-C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:71
-io.set('authorization', function (data, accept) {
-   ^
-
-TypeError: io.set is not a function
-    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:71:4)
-    at Module._compile (node:internal/modules/cjs/loader:1546:14)
-    at Object..js (node:internal/modules/cjs/loader:1689:10)
-    at Module.load (node:internal/modules/cjs/loader:1318:32)
-    at Function._load (node:internal/modules/cjs/loader:1128:12)
-    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
-    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
-    at Module.require (node:internal/modules/cjs/loader:1340:12)
-    at require (node:internal/modules/helpers:141:16)
-    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\clusters.js:18:5)
-
-Node.js v22.11.0
-Mon, 09 Jun 2025 22:36:30 GMT express-session deprecated undefined resave option; provide resave option at app.js:29:14
-Mon, 09 Jun 2025 22:36:30 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:29:14
-Mon, 09 Jun 2025 22:36:30 GMT body-parser deprecated undefined extended: provide extended option at app.js:46:17
-C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:71
-io.set('authorization', function (data, accept) {
-   ^
-
-TypeError: io.set is not a function
-    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:71:4)
-    at Module._compile (node:internal/modules/cjs/loader:1546:14)
-    at Object..js (node:internal/modules/cjs/loader:1689:10)
-    at Module.load (node:internal/modules/cjs/loader:1318:32)
-    at Function._load (node:internal/modules/cjs/loader:1128:12)
-    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
-    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
-    at Module.require (node:internal/modules/cjs/loader:1340:12)
-    at require (node:internal/modules/helpers:141:16)
-    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\clusters.js:18:5)
-
-Node.js v22.11.0
-Mon, 09 Jun 2025 22:36:30 GMT express-session deprecated undefined resave option; provide resave option at app.js:29:14
-Mon, 09 Jun 2025 22:36:30 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:29:14
-Mon, 09 Jun 2025 22:36:30 GMT body-parser deprecated undefined extended: provide extended option at app.js:46:17
-C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:71
-io.set('authorization', function (data, accept) {
-   ^
-
-TypeError: io.set is not a function
-    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:71:4)
-    at Module._compile (node:internal/modules/cjs/loader:1546:14)
-    at Object..js (node:internal/modules/cjs/loader:1689:10)
-    at Module.load (node:internal/modules/cjs/loader:1318:32)
-    at Function._load (node:internal/modules/cjs/loader:1128:12)
-    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
-    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
-    at Module.require (node:internal/modules/cjs/loader:1340:12)
-    at require (node:internal/modules/helpers:141:16)
-    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\clusters.js:18:5)
-
-Node.js v22.11.0
-Mon, 09 Jun 2025 22:36:31 GMT express-session deprecated undefined resave option; provide resave option at app.js:29:14
-Mon, 09 Jun 2025 22:36:31 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:29:14
-Mon, 09 Jun 2025 22:36:31 GMT body-parser deprecated undefined extended: provide extended option at app.js:46:17
-C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:71
-io.set('authorization', function (data, accept) {
-   ^
-
-TypeError: io.set is not a function
-    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\app.js:71:4)
-    at Module._compile (node:internal/modules/cjs/loader:1546:14)
-    at Object..js (node:internal/modules/cjs/loader:1689:10)
-    at Module.load (node:internal/modules/cjs/loader:1318:32)
-    at Function._load (node:internal/modules/cjs/loader:1128:12)
-    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
-    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
-    at Module.require (node:internal/modules/cjs/loader:1340:12)
-    at require (node:internal/modules/helpers:141:16)
-    at Object.<anonymous> (C:\Users\Start\OneDrive\Documentos\node\ntalk\clusters.js:18:5)
-
-Node.js v22.11.0
+Wed, 11 Jun 2025 23:16:33 GMT express-session deprecated undefined resave option; provide resave option at app.js:31:15
+Wed, 11 Jun 2025 23:16:33 GMT express-session deprecated undefined resave option; provide resave option at app.js:31:15
+Wed, 11 Jun 2025 23:16:33 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:31:15
+Wed, 11 Jun 2025 23:16:33 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:31:15
+Wed, 11 Jun 2025 23:16:33 GMT express-session deprecated undefined resave option; provide resave option at app.js:31:15
+Wed, 11 Jun 2025 23:16:33 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:31:15
+Wed, 11 Jun 2025 23:16:33 GMT body-parser deprecated undefined extended: provide extended option at app.js:48:17
+Wed, 11 Jun 2025 23:16:33 GMT body-parser deprecated undefined extended: provide extended option at app.js:48:17
+Wed, 11 Jun 2025 23:16:33 GMT body-parser deprecated undefined extended: provide extended option at app.js:48:17
+Wed, 11 Jun 2025 23:16:33 GMT express deprecated app.del: Use app.delete instead at routes\contato.js:10:9
+Wed, 11 Jun 2025 23:16:33 GMT express deprecated app.del: Use app.delete instead at routes\contato.js:10:9
+Wed, 11 Jun 2025 23:16:34 GMT express deprecated app.del: Use app.delete instead at routes\contato.js:10:9
+Wed, 11 Jun 2025 23:16:34 GMT express-session deprecated undefined resave option; provide resave option at app.js:31:15
+Wed, 11 Jun 2025 23:16:34 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:31:15
+Wed, 11 Jun 2025 23:16:34 GMT body-parser deprecated undefined extended: provide extended option at app.js:48:17
+Wed, 11 Jun 2025 23:16:34 GMT express deprecated app.del: Use app.delete instead at routes\contato.js:10:9
+Wed, 11 Jun 2025 23:16:34 GMT express-session deprecated undefined resave option; provide resave option at app.js:31:15
+Wed, 11 Jun 2025 23:16:34 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:31:15
+Wed, 11 Jun 2025 23:16:34 GMT body-parser deprecated undefined extended: provide extended option at app.js:48:17
+Wed, 11 Jun 2025 23:16:34 GMT express deprecated app.del: Use app.delete instead at routes\contato.js:10:9
+Wed, 11 Jun 2025 23:16:34 GMT express-session deprecated undefined resave option; provide resave option at app.js:31:15
+Wed, 11 Jun 2025 23:16:34 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:31:15
+Wed, 11 Jun 2025 23:16:35 GMT body-parser deprecated undefined extended: provide extended option at app.js:48:17
+Wed, 11 Jun 2025 23:16:35 GMT express deprecated app.del: Use app.delete instead at routes\contato.js:10:9
+Wed, 11 Jun 2025 23:16:35 GMT express-session deprecated undefined resave option; provide resave option at app.js:31:15
+Wed, 11 Jun 2025 23:16:35 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:31:15
+Wed, 11 Jun 2025 23:16:35 GMT body-parser deprecated undefined extended: provide extended option at app.js:48:17
+Wed, 11 Jun 2025 23:16:35 GMT express deprecated app.del: Use app.delete instead at routes\contato.js:10:9
+Wed, 11 Jun 2025 23:16:35 GMT express-session deprecated undefined resave option; provide resave option at app.js:31:15
+Wed, 11 Jun 2025 23:16:35 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:31:15
+Wed, 11 Jun 2025 23:16:35 GMT body-parser deprecated undefined extended: provide extended option at app.js:48:17
+Wed, 11 Jun 2025 23:16:35 GMT express deprecated app.del: Use app.delete instead at routes\contato.js:10:9

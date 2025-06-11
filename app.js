@@ -2,34 +2,36 @@
 var cfg = require('./config.json')
 
 var express = require('express'),
-app = express(),
-load = require('express-load'),
-server = require('http').createServer(app),
-error = require('./middleware/error'),
-cfg = require('./config.json')
+  app = express(),
+  load = require('express-load'),
+  server = require('http').createServer(app),
+  error = require('./middleware/error'),
+  cfg = require('./config.json')
 io = require('socket.io')(server),
-redis = require('./lib/redis_connect'),
-//ExpressStore = redis.getExpressStore(),
-socketStore = redis.getSocketStore(),
+  redis = require('./lib/redis_connect'),
+  //ExpressStore = redis.getExpressStore(),
+  socketStore = redis.getSocketStore(),
 
-bodyParser = require('body-parser'),
-cookieParser = require('cookie-parser'),
-expressSession = require('express-session'),
-methodOverride = require('method-override'),
-parserSecret = cookieParser(cfg.SECRET),
-store = new expressSession.MemoryStore(),
-mongoose = require('mongoose');
+  bodyParser = require('body-parser'),
+  cookieParser = require('cookie-parser'),
+  expressSession = require('express-session'),
+  methodOverride = require('method-override'),
+  parserSecret = cookieParser(cfg.SECRET),
+  store = new expressSession.MemoryStore(),
+  mongoose = require('mongoose');
 
 
 var cookie = cookieParser(cfg.SECRET)
- , storeOpts = {client: redis.getClient(), 
-                 prefix: cfg.KEY}
- //, store = new ExpressStore(storeOpts)
- , sessOpts = {secret: cfg.SECRET, key: cfg.KEY, store: store}
- , session = expressSession(sessOpts);
+  , storeOpts = {
+    client: redis.getClient(),
+    prefix: cfg.KEY
+  }
+  //, store = new ExpressStore(storeOpts)
+  , sessOpts = { secret: cfg.SECRET, key: cfg.KEY, store: store }
+  , session = expressSession(sessOpts);
 
- //io.set('log level', 1);
- //io.set('store',  socketStore);
+//io.set('log level', 1);
+//io.set('store',  socketStore);
 
 mongoose.connect('mongodb://localhost/ntalk');
 mongoose.connection.on('error', (err) => {
@@ -74,13 +76,20 @@ io.use('authorization', function (data, accept) {
   cookie(data, {}, function (err) {
     var sessionID = data.signedCookies[cfg.KEY];
     store.get(sessionID, function (err, session) {
-      if (err || !session) {
-        accept(null, false);
-      } else {
-        io.use('authorization', function(data, accept)
+      io.use('authorization', function (data, accept) {
+        cookie(data, {}, function (err) {
+          var sessionID = data.signedCookies[cfg.KEY];
+          store.get(sessionID, function (err, session) {
+            if (err || !session) {
+              accept(null, false);
+            } else {
+              io.use('authorization', function (data, accept) { })
+            }
+          })
 
-      )
-      }
+        });
+
+      });
     });
   });
 });
