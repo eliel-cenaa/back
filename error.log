@@ -1,32 +1,24 @@
-Wed, 11 Jun 2025 23:16:33 GMT express-session deprecated undefined resave option; provide resave option at app.js:31:15
-Wed, 11 Jun 2025 23:16:33 GMT express-session deprecated undefined resave option; provide resave option at app.js:31:15
-Wed, 11 Jun 2025 23:16:33 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:31:15
-Wed, 11 Jun 2025 23:16:33 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:31:15
-Wed, 11 Jun 2025 23:16:33 GMT express-session deprecated undefined resave option; provide resave option at app.js:31:15
-Wed, 11 Jun 2025 23:16:33 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:31:15
-Wed, 11 Jun 2025 23:16:33 GMT body-parser deprecated undefined extended: provide extended option at app.js:48:17
-Wed, 11 Jun 2025 23:16:33 GMT body-parser deprecated undefined extended: provide extended option at app.js:48:17
-Wed, 11 Jun 2025 23:16:33 GMT body-parser deprecated undefined extended: provide extended option at app.js:48:17
-Wed, 11 Jun 2025 23:16:33 GMT express deprecated app.del: Use app.delete instead at routes\contato.js:10:9
-Wed, 11 Jun 2025 23:16:33 GMT express deprecated app.del: Use app.delete instead at routes\contato.js:10:9
-Wed, 11 Jun 2025 23:16:34 GMT express deprecated app.del: Use app.delete instead at routes\contato.js:10:9
-Wed, 11 Jun 2025 23:16:34 GMT express-session deprecated undefined resave option; provide resave option at app.js:31:15
-Wed, 11 Jun 2025 23:16:34 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:31:15
-Wed, 11 Jun 2025 23:16:34 GMT body-parser deprecated undefined extended: provide extended option at app.js:48:17
-Wed, 11 Jun 2025 23:16:34 GMT express deprecated app.del: Use app.delete instead at routes\contato.js:10:9
-Wed, 11 Jun 2025 23:16:34 GMT express-session deprecated undefined resave option; provide resave option at app.js:31:15
-Wed, 11 Jun 2025 23:16:34 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:31:15
-Wed, 11 Jun 2025 23:16:34 GMT body-parser deprecated undefined extended: provide extended option at app.js:48:17
-Wed, 11 Jun 2025 23:16:34 GMT express deprecated app.del: Use app.delete instead at routes\contato.js:10:9
-Wed, 11 Jun 2025 23:16:34 GMT express-session deprecated undefined resave option; provide resave option at app.js:31:15
-Wed, 11 Jun 2025 23:16:34 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:31:15
-Wed, 11 Jun 2025 23:16:35 GMT body-parser deprecated undefined extended: provide extended option at app.js:48:17
-Wed, 11 Jun 2025 23:16:35 GMT express deprecated app.del: Use app.delete instead at routes\contato.js:10:9
-Wed, 11 Jun 2025 23:16:35 GMT express-session deprecated undefined resave option; provide resave option at app.js:31:15
-Wed, 11 Jun 2025 23:16:35 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:31:15
-Wed, 11 Jun 2025 23:16:35 GMT body-parser deprecated undefined extended: provide extended option at app.js:48:17
-Wed, 11 Jun 2025 23:16:35 GMT express deprecated app.del: Use app.delete instead at routes\contato.js:10:9
-Wed, 11 Jun 2025 23:16:35 GMT express-session deprecated undefined resave option; provide resave option at app.js:31:15
-Wed, 11 Jun 2025 23:16:35 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:31:15
-Wed, 11 Jun 2025 23:16:35 GMT body-parser deprecated undefined extended: provide extended option at app.js:48:17
-Wed, 11 Jun 2025 23:16:35 GMT express deprecated app.del: Use app.delete instead at routes\contato.js:10:9
+Mon, 16 Jun 2025 22:50:02 GMT express-session deprecated undefined resave option; provide resave option at app.js:31:15
+Mon, 16 Jun 2025 22:50:02 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:31:15
+Mon, 16 Jun 2025 22:50:02 GMT express deprecated app.del: Use app.delete instead at routes\contato.js:10:9
+Mon, 16 Jun 2025 22:50:02 GMT express-session deprecated undefined resave option; provide resave option at app.js:31:15
+Mon, 16 Jun 2025 22:50:02 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:31:15
+Mon, 16 Jun 2025 22:50:02 GMT express deprecated app.del: Use app.delete instead at routes\contato.js:10:9
+Mon, 16 Jun 2025 22:50:03 GMT express-session deprecated undefined resave option; provide resave option at app.js:31:15
+Mon, 16 Jun 2025 22:50:03 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:31:15
+Mon, 16 Jun 2025 22:50:03 GMT express deprecated app.del: Use app.delete instead at routes\contato.js:10:9
+Mon, 16 Jun 2025 22:50:03 GMT express-session deprecated undefined resave option; provide resave option at app.js:31:15
+Mon, 16 Jun 2025 22:50:03 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:31:15
+Mon, 16 Jun 2025 22:50:03 GMT express deprecated app.del: Use app.delete instead at routes\contato.js:10:9
+Mon, 16 Jun 2025 22:50:04 GMT express-session deprecated undefined resave option; provide resave option at app.js:31:15
+Mon, 16 Jun 2025 22:50:04 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:31:15
+Mon, 16 Jun 2025 22:50:04 GMT express deprecated app.del: Use app.delete instead at routes\contato.js:10:9
+Mon, 16 Jun 2025 22:50:04 GMT express-session deprecated undefined resave option; provide resave option at app.js:31:15
+Mon, 16 Jun 2025 22:50:04 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:31:15
+Mon, 16 Jun 2025 22:50:04 GMT express deprecated app.del: Use app.delete instead at routes\contato.js:10:9
+Mon, 16 Jun 2025 22:50:04 GMT express-session deprecated undefined resave option; provide resave option at app.js:31:15
+Mon, 16 Jun 2025 22:50:04 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:31:15
+Mon, 16 Jun 2025 22:50:04 GMT express deprecated app.del: Use app.delete instead at routes\contato.js:10:9
+Mon, 16 Jun 2025 22:50:04 GMT express-session deprecated undefined resave option; provide resave option at app.js:31:15
+Mon, 16 Jun 2025 22:50:04 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:31:15
+Mon, 16 Jun 2025 22:50:04 GMT express deprecated app.del: Use app.delete instead at routes\contato.js:10:9

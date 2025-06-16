@@ -1,5 +1,4 @@
 //const { getExpressStore } = require('./lib/redis_connect');
-var cfg = require('./config.json')
 
 var express = require('express'),
   app = express(),
@@ -44,9 +43,9 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 app.use(cookie);
 app.use(session);
-app.use(express.json());
-app.use(express.urlencoded());
-app.use(methodOverride());
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended:true}));
+app.use(methodOverride('_method'));
 //app.use(express.compress(cfg.GZIP_LVL));
 //app.use(app.router);
 app.use(express.static(__dirname + '/public', cfg.MAX_AGE));
