@@ -47,8 +47,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(methodOverride('_method'));
 //app.use(express.compress(cfg.GZIP_LVL));
-//app.use(app.router);
-app.use(express.static(__dirname + '/public', cfg.MAX_AGE));
+app.use(express.static(__dirname + '/public'));
 app.use(error.notFound);
 app.use(error.serverError);
 
