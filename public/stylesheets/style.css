@@ -1,8 +1,23 @@
 body {
-  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  min-height:100vh ;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+section{
+
+}
+input{
+  padding: 8px 16px;
+}
+button {
+  padding: 8px ;
 }

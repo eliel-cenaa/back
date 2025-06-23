@@ -5,6 +5,7 @@
   "private": false,
   "scripts": {
     "start": "node server",
+    "dev":"nodemon app.js",
     "test": " NODE_ENV=test ./node_modules/mocha/bin/mocha test/*.js "
   },
   "dependencies": {
