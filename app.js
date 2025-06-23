@@ -26,7 +26,13 @@ var cookie = cookieParser(cfg.SECRET)
     prefix: cfg.KEY
   }
   //, store = new ExpressStore(storeOpts)
-  , sessOpts = { secret: cfg.SECRET, key: cfg.KEY, store: store }
+  , sessOpts = { 
+      secret: cfg.SECRET, 
+      key: cfg.KEY, 
+      store: store,
+      resave: false,
+      saveUninitialized: true
+    }
   , session = expressSession(sessOpts);
 
 //io.set('log level', 1);
@@ -48,19 +54,11 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(methodOverride('_method'));
 //app.use(express.compress(cfg.GZIP_LVL));
 app.use(express.static(__dirname + '/public'));
+
+load('models').then('controllers').then('routes').into(app);
+
 app.use(error.notFound);
 app.use(error.serverError);
-
-app.use(parserSecret);
-app.use(
-  expressSession({
-    secret: cfg.SECRET,
-    name: cfg.KEY,
-    resave: true,
-    saveUninitialized: true,
-    store: store,
-  })
-);
 
 //io.enable('blowser client cache');
 //io.enable('browser client minification');
@@ -92,7 +90,6 @@ io.use('authorization', function (data, accept) {
   });
 });
 
-load('models').then('controllers').then('routes').into(app);
 load('sockets').into(io);
 
 io.sockets.on('connection', function (client) {
